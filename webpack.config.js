@@ -1,11 +1,10 @@
-const past = require('path');
+const path = require('path');
 const HTMLWebpackPLugin = require('html-webpack-plugin');
-const { pathToFileURL } = require('url');
 
 module.exports = {
   mode: 'development',
   context: path.resolve(__dirname, 'src'),
-  entry: '.index.js',
+  entry: './index.js',
   output: {
     filename: 'bundle.js',
     path: path.resolve(__dirname, 'dist')
