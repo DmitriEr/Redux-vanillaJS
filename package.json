@@ -1,0 +1,28 @@
+{
+  "name": "redux-vanillajs",
+  "version": "1.0.0",
+  "description": "example with redux js",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --open",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DmitriEr/Redux-vanillaJS.git"
+  },
+  "author": "Dmitrii",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DmitriEr/Redux-vanillaJS/issues"
+  },
+  "homepage": "https://github.com/DmitriEr/Redux-vanillaJS#readme",
+  "devDependencies": {
+    "css-loader": "^4.3.0",
+    "html-webpack-plugin": "^4.4.1",
+    "style-loader": "^1.2.1",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  }
+}
